@@ -1,7 +1,7 @@
 import React from "react";
-import "./cardStyles.css";
+import "prop-types";
 
-const navbar = () => {
+const nav = () => {
     return(
         <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
         <div class="container-fluid">
@@ -31,4 +31,4 @@ const navbar = () => {
     );
    
     };
-export default MyNavbar
+export default nav;
